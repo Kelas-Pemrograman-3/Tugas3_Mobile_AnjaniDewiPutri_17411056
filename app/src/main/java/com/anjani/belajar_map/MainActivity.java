@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onMapReady(@NonNull MapboxMap mapboxMap) {
                 mapboxMap.setStyle(Style.MAPBOX_STREETS, new Style.OnStyleLoaded() {
                     @Override
-                    public void onStyleLoaded(@NonNull Style style) {
+                    public void onStyleLoaded(@NonNull Style style) {   
 
                         // Map is set up and the style has loaded. Now you can add data or make other map adjustments.
 
@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
                 marker(-5.397140, 105.266792, mapboxMap);
-                marker(-3.092642, 115.283760, mapboxMap);
-                marker(39.021390, 125.752750, mapboxMap);
-                marker(22.396427, 114.109497, mapboxMap);
+                marker(-3.668799, 119.974052, mapboxMap);
+                marker(39.021390, 104.195396, mapboxMap);
+                marker(3.073093, 116.041389, mapboxMap);
                 marker(15.870032, 100.992538, mapboxMap);
             }
         });
